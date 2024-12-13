@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: rgb(32, 87, 253);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo-imagem img{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+main h2{
+    font-size: 40px;
+    margin: 30px;
+    margin-left: 50px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pesquisar{
+    background-color: rgb(212, 212, 212);
+    padding: 7px 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 70%;
+    top: 18%;
+    border: 2px solid rgb(32, 87, 253);
+}
+.pesquisar-text{
+    border: none;
+    background: none;
+    outline: none;
+    width: 52vh;
+}
+.capoeira{
+    display: flex;
+    padding: 15px 20px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 20px;
+    border: 2px solid gray;
+    margin: 2vh 10vh;
+}
+#capoeira-img {
+    height: 300px;
+    width: 400px;
+    margin-left: 1vh;
+    margin-right: 3vh;
+    border-radius: 25px;
+    border: 2px solid rgb(90, 90, 90);
+}
+.capoeira h3{
+    margin-left: 3vh;
+    font-size: 5vh;
+    margin-top: 2vh;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.capoeira p{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    margin-right: 10vh;
+    font-size: 3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.capoeira button{
+    width: 15vh;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: larger;
+    background-color: rgb(1, 184, 4);
+    color: white;
+    margin-top: 3vh;
+    margin-left: 25vh;
+}
+.volei{
+    display: flex;
+    padding: 15px 20px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 20px;
+    border: 2px solid rgb(128, 128, 128);
+    margin: 2vh 10vh;
+}
+.volei img{
+    height: 300px;
+    width: 400px;
+    margin-left: 1vh;
+    margin-right: 3vh;
+    border-radius: 25px;
+    border: 2px solid rgb(90, 90, 90);
+}
+.volei h3{
+    margin-left: 3vh;
+    font-size: 5vh;
+    margin-top: 2vh;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.volei p{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    margin-right: 10vh;
+    font-size: 3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.volei button{
+    width: 15vh;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: larger;
+    background-color: rgb(1, 184, 4);
+    color: white;
+    margin-top: 11vh;
+    margin-left: 25vh;
+}
+.violao{
+    display: flex;
+    padding: 15px 20px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 20px;
+    border: 2px solid gray;
+    margin: 2vh 10vh;
+}
+.violao img{
+    height: 300px;
+    width: 400px;
+    margin-left: 1vh;
+    margin-right: 3vh;
+    border-radius: 25px;
+    border: 2px solid rgb(90, 90, 90);
+}
+.violao h3{
+    margin-left: 3vh;
+    font-size: 5vh;
+    margin-top: 2vh;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.violao p{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    margin-right: 10vh;
+    font-size: 3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.violao button{
+    width: 15vh;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: larger;
+    background-color: rgb(1, 184, 4);
+    color: white;
+    margin-top: 8vh;
+    margin-left: 25vh;
+}

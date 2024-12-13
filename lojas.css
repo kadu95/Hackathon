@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: rgb(32, 87, 253);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo-imagem img{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+main{
+    margin-left: 2vh;
+}
+main h2{
+    font-size: 40px;
+    margin: 30px;
+    margin-left: 40px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ambev{
+    display: flex;
+    padding: 3vh 0;
+    border-radius: 25px;
+    margin: 3vh;
+    border: 2px solid rgb(128, 128, 128);
+    padding-right: 0%;
+    margin-right: 50%;
+    background-color: rgb(225, 225, 225);
+}
+.ambev img{
+    margin-left: 3vh;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 100%;
+    border: 5px solid rgb(138, 138, 138);
+}
+.ambev-text{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    font-size: 23px;
+}
+.ultrabox{
+    display: flex;
+    padding: 3vh 0;
+    border-radius: 25px;
+    margin: 3vh;
+    border: 2px solid rgb(128, 128, 128);
+    padding-right: 0%;
+    margin-right: 50%;
+    background-color: rgb(225, 225, 225);
+}
+.ultrabox img{
+    margin-left: 3vh;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 100%;
+    border: 5px solid rgb(138, 138, 138);
+}
+.ultrabox-text{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    font-size: 23px;
+}
+.construcasa{
+    display: flex;
+    padding: 3vh 0;
+    border-radius: 25px;
+    margin: 3vh;
+    border: 2px solid rgb(128, 128, 128);
+    padding-right: 0%;
+    margin-right: 50%;
+    background-color: rgb(225, 225, 225);
+}
+.construcasa img{
+    margin-left: 3vh;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 100%;
+    border: 5px solid rgb(138, 138, 138);
+}
+.construcasa-text{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    font-size: 23px;
+}
+.restaurante{
+    display: flex;
+    padding: 3vh 0;
+    border-radius: 25px;
+    margin: 3vh;
+    border: 2px solid rgb(128, 128, 128);
+    padding-right: 0%;
+    margin-right: 50%;
+    background-color: rgb(225, 225, 225);
+}
+.restaurante img{
+    margin-left: 3vh;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 100%;
+    border: 5px solid rgb(138, 138, 138);
+}
+.restaurante-text{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    font-size: 23px;
+}
+.barbearia{
+    display: flex;
+    padding: 3vh 0;
+    border-radius: 25px;
+    margin: 3vh;
+    border: 2px solid rgb(128, 128, 128);
+    padding-right: 0%;
+    margin-right: 50%;
+    background-color: rgb(225, 225, 225);
+}
+.barbearia img{
+    margin-left: 3vh;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 100%;
+    border: 5px solid rgb(138, 138, 138);
+}
+.barbearia-text{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    font-size: 23px;
+}
+.papelaria{
+    display: flex;
+    padding: 3vh 0;
+    border-radius: 25px;
+    margin: 3vh;
+    border: 2px solid rgb(128, 128, 128);
+    padding-right: 0%;
+    margin-right: 50%;
+    background-color: rgb(225, 225, 225);
+}
+.papelaria img{
+    margin-left: 3vh;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 100%;
+    border: 5px solid rgb(138, 138, 138);
+}
+.papelaria-text{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    font-size: 23px;
+}
+main h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 9px;
+    border-radius: 25px;
+}
+.carrossel {
+    position: absolute;
+    left: 55%;
+    top: 31%;
+    width: 600px;
+    height: 400px;
+    margin: 40px auto;
+   }
+   
+   .slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+   }
+   
+   .slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 51, 190);
+    box-shadow: 8px 8px 30px 0px black;
+   }
+   
+   .slides img.ativo {
+    display: block;
+   }
+   
+   .botao-anterior, .botao-proximo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+   }
+   
+   .botao-anterior {
+    left: 0px;
+    background-color: transparent;
+    padding: 27vh 6vh;
+   }
+   
+   .botao-proximo {
+    right: 00px;
+    background-color: transparent;
+    padding: 27vh 6vh;
+   }
+   main button{
+    position: absolute;
+    right: 15%;
+    top: 180%;
+    padding: 2vh 3vh;
+    font-size: 25px;
+    background-color: rgb(64, 174, 0);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   main a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+   }
+   main a h3:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+   }
+   .pesquisar{
+    background-color: rgb(212, 212, 212);
+    padding: 7px 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 70%;
+    top: 18%;
+    border: 2px solid rgb(32, 87, 253);
+}
+.pesquisar-text{
+    border: none;
+    background: none;
+    outline: none;
+    width: 52vh;
+}

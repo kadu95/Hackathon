@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header a{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    
+}
+header img{
+    border-radius: 50px;
+}
+.Projetos{
+    background-color: rgb(219, 219, 219);
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px 2px black;
+}
+main h3{
+    font-size: 3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    margin-bottom: 2vh;
+    padding-top: 1vh;
+}
+main label{
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main select{
+    height: 4vh;
+    width: 60vh;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+main img{
+    width: 100%;
+    height: 40%;
+}
+main button{
+    display: flex;
+    justify-self: right;
+    margin-right: 3vh;
+    margin-top: 1vh;
+    font-size: 20px;
+    padding: 1vh 2vh;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+main a{
+    text-decoration: none;
+}
